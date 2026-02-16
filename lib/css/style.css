@@ -126,8 +126,8 @@ li {
 }
 
 @keyframes pulse {
-  0%, 100% { text-shadow: 0 0 8px var(--neon-blue); }
-  50% { text-shadow: 0 0 20px var(--neon-blue); }
+    0%, 100% { text-shadow: 0 0 8px var(--neon-blue); }
+    50% { text-shadow: 0 0 20px var(--neon-blue); }
 }
 
 @keyframes pulseToday {
@@ -153,8 +153,8 @@ li {
 
 .event,
 .future-event {
-  animation: pulse 2s infinite;
-  color: var(--neon-purple);
+    animation: pulse 2s infinite;
+    color: var(--neon-purple);
 }
 
 .today {
